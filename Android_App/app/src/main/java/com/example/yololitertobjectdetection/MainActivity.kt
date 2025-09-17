@@ -33,9 +33,18 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
-
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        // Return to HomeActivity when back is pressed
+        finish()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        // Clean up any camera resources if needed
+    }
 
     private fun setStatusBarColor(color: Int) {
         window?.statusBarColor = ContextCompat.getColor(baseContext, color)
