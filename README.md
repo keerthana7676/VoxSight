@@ -16,6 +16,23 @@ Key features include:
 * **Real-time Information**: The app can provide real-time audio updates on the current time, date, and battery status with a simple voice command.
 * **User-Centric Design**: The user interface is minimal and relies primarily on audio feedback, making it compliant with voice interaction and compatible with screen readers for an easy-to-use experience.
 
+## Voice Commands
+Here are the commands the VoxSight assistant recognizes:
+
+* **Battery Level**: Say "battery percentage" or "battery level."
+
+* **Time and Date**: Say "time" for the current time or "date" for the current date.
+
+* **Messages**: Say "read messages" or "read my messages" to listen to your messages. Say "send message" or "text" to send a new message.
+
+* **Phone Calls**: Say "call" followed by the contact's name or a phone number.
+
+* **Camera**: Say "open camera" or "camera on" to launch the camera for object detection.
+
+* **Exit App**: To stop the app, say "stop," "stop listening," "exit," or "exit app."
+
+* **Help**: To hear the list of commands again, say "help" or "list commands."
+
 ## Technology Stack
 The VoxSight application is built on the following technologies to ensure it is technically viable, efficient, and reliable:
 
